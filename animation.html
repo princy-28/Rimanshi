@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title> My animation</title>
+</head>
+
+<style>
+    #div1 {
+        height: 300px;
+        width: 250px;
+        animation-name: myanimation;
+        animation-duration: 5s;
+        background-color: khaki;
+    }
+    
+    @keyframes myanimation {
+        to {
+            background-color: greenyellow;
+            width: 250px;
+            height: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: greenyellow;
+        }
+        from {
+            background-color: blue;
+            width: 10px;
+            height: 10px;
+            border-width: 1px;
+            border-style: dashed;
+            border-color: darkorange;
+        }
+    }
+</style>
+
+<body>
+    <div id="div1">
+    </div>
+</body>
+
+</html>
